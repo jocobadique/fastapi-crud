@@ -1,0 +1,48 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.pyc
+
+# --- Virtual Environment ---
+venv/
+env/
+.venv/
+.env/
+
+# --- Environment Variables ---
+.env
+*.env
+
+# --- FastAPI / Uvicorn / Logs ---
+*.log
+log/
+logs/
+
+# --- Byte-compiled / cache ---
+.cache/
+pytest_cache/
+*.sqlite3
+
+# --- Editor / IDE ---
+.vscode/
+.idea/
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Packages / Distributions ---
+dist/
+build/
+*.egg-info/
+
+# --- MyPy / Lint ---
+.mypy_cache/
+.pytype/
+.dmypy.json
+
+# --- Docker ---
+*.pid
